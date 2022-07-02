@@ -11,7 +11,7 @@ namespace ADO.NET_DEMO.Controllers
     {
         public ActionResult Index()
         {
-            const string YourAccessKey = "AquLAl0e6sUIG90jTbHnqCaqW"; // your access key here
+            const string YourAccessKey = ""; // your access key here
             Client client = Client.CreateDefault(YourAccessKey);
             const long Msisdn = +918461914451; // your phone number here
 
